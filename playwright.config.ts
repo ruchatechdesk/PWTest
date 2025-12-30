@@ -79,17 +79,17 @@ export default defineConfig({
   ],
 
   /* Run your local dev server before starting the tests */
-   webServer: {
-    //  command: 'npm run start',
-    //  port: 4200,
-    //  url: 'http://localhost:4200/pages/iot-dashboard'
-    //  reuseExistingServer: !process.env.CI,
-    command: 'cmd /c echo STARTING VIA PLAYWRIGHT && npm start',
-    cwd: 'D:/PlaywrightProjects/pw-practice-app', 
-    port: 4200,
-    reuseExistingServer: true,
-    timeout: 150 * 1000,
-   },
+  //  webServer: {
+  //   //  command: 'npm run start',
+  //   //  port: 4200,
+  //   //  url: 'http://localhost:4200/pages/iot-dashboard'
+  //   //  reuseExistingServer: !process.env.CI,
+  //   command: 'cmd /c echo STARTING VIA PLAYWRIGHT && npm start',
+  //   cwd: 'D:/PlaywrightProjects/pw-practice-app', 
+  //   port: 4200,
+  //   reuseExistingServer: true,
+  //   timeout: 150 * 1000,
+  //  },
 
   //  use: {
   //   baseURL: 'http://localhost:4200/pages/iot-dashboard',
