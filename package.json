@@ -17,6 +17,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@argos-ci/playwright": "^6.3.8",
     "@playwright/test": "^1.57.0",
     "@types/node": "^24.10.1",
     "dotenv": "^17.2.3"
