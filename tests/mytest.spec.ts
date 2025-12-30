@@ -13,4 +13,5 @@ test('My test @smoke', async({page})=>{
 
     // await page.getByRole('')
     console.log('Test passed')
+    console.log('Running from GIT CI')
 })
